@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3818697720D2ECA800EC6770 /* ModelCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3818697620D2ECA800EC6770 /* ModelCharacter.swift */; };
+		382D607020D1243500C15BED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382D606F20D1243500C15BED /* AppDelegate.swift */; };
+		382D607520D1243500C15BED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 382D607320D1243500C15BED /* Main.storyboard */; };
+		382D607720D1243B00C15BED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 382D607620D1243B00C15BED /* Assets.xcassets */; };
+		382D607A20D1243B00C15BED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 382D607820D1243B00C15BED /* LaunchScreen.storyboard */; };
+		382D608B20D1255800C15BED /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382D608A20D1255800C15BED /* BaseVC.swift */; };
+		382D608F20D125B800C15BED /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382D608E20D125B800C15BED /* CustomCell.swift */; };
+		382D609120D1282D00C15BED /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382D609020D1282D00C15BED /* Constant.swift */; };
+		382D609920D136D200C15BED /* MervelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382D609820D136D200C15BED /* MervelService.swift */; };
+		382D609F20D22EC300C15BED /* ModelMarvel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382D609E20D22EC300C15BED /* ModelMarvel.swift */; };
+		382D60AD20D22FB400C15BED /* CustomLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 382D60AA20D22FB400C15BED /* CustomLoader.m */; };
+		382D60AE20D22FB400C15BED /* CustomLoader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 382D60AB20D22FB400C15BED /* CustomLoader.xib */; };
+		382D60B120D23FBE00C15BED /* LazyImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382D60B020D23FBE00C15BED /* LazyImageLoader.swift */; };
+		382D60B320D24D3D00C15BED /* ExtensionANUJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382D60B220D24D3D00C15BED /* ExtensionANUJ.swift */; };
+		382D60B520D24E5C00C15BED /* MarvelAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382D60B420D24E5C00C15BED /* MarvelAlertController.swift */; };
+		382D60B920D2941300C15BED /* BaseDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382D60B820D2941200C15BED /* BaseDetailVC.swift */; };
+		382D60BB20D2A71500C15BED /* NetReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382D60BA20D2A71500C15BED /* NetReachability.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3818697620D2ECA800EC6770 /* ModelCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCharacter.swift; sourceTree = "<group>"; };
+		382D606C20D1243500C15BED /* Marvelicious.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marvelicious.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		382D606F20D1243500C15BED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		382D607420D1243500C15BED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		382D607620D1243B00C15BED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		382D607920D1243B00C15BED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		382D607B20D1243B00C15BED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		382D608A20D1255800C15BED /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		382D608E20D125B800C15BED /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		382D609020D1282D00C15BED /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		382D609820D136D200C15BED /* MervelService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MervelService.swift; sourceTree = "<group>"; };
+		382D609E20D22EC300C15BED /* ModelMarvel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelMarvel.swift; sourceTree = "<group>"; };
+		382D60AA20D22FB400C15BED /* CustomLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLoader.m; sourceTree = "<group>"; };
+		382D60AB20D22FB400C15BED /* CustomLoader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomLoader.xib; sourceTree = "<group>"; };
+		382D60AC20D22FB400C15BED /* CustomLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLoader.h; sourceTree = "<group>"; };
+		382D60AF20D22FD300C15BED /* Marvelicious-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Marvelicious-Bridging-Header.h"; sourceTree = "<group>"; };
+		382D60B020D23FBE00C15BED /* LazyImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyImageLoader.swift; sourceTree = "<group>"; };
+		382D60B220D24D3D00C15BED /* ExtensionANUJ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionANUJ.swift; sourceTree = "<group>"; };
+		382D60B420D24E5C00C15BED /* MarvelAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelAlertController.swift; sourceTree = "<group>"; };
+		382D60B820D2941200C15BED /* BaseDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDetailVC.swift; sourceTree = "<group>"; };
+		382D60BA20D2A71500C15BED /* NetReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetReachability.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		382D606920D1243500C15BED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		382D606320D1243500C15BED = {
+			isa = PBXGroup;
+			children = (
+				382D606E20D1243500C15BED /* Marvelicious */,
+				382D606D20D1243500C15BED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		382D606D20D1243500C15BED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				382D606C20D1243500C15BED /* Marvelicious.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		382D606E20D1243500C15BED /* Marvelicious */ = {
+			isa = PBXGroup;
+			children = (
+				382D606F20D1243500C15BED /* AppDelegate.swift */,
+				382D608120D1247A00C15BED /* AppFlow */,
+				382D607320D1243500C15BED /* Main.storyboard */,
+				382D607620D1243B00C15BED /* Assets.xcassets */,
+				382D607820D1243B00C15BED /* LaunchScreen.storyboard */,
+				382D607B20D1243B00C15BED /* Info.plist */,
+			);
+			path = Marvelicious;
+			sourceTree = "<group>";
+		};
+		382D608120D1247A00C15BED /* AppFlow */ = {
+			isa = PBXGroup;
+			children = (
+				382D608220D124C200C15BED /* CommonResources */,
+				382D608420D124C300C15BED /* CustomLoader */,
+				382D608320D124C300C15BED /* ViewFlow */,
+			);
+			path = AppFlow;
+			sourceTree = "<group>";
+		};
+		382D608220D124C200C15BED /* CommonResources */ = {
+			isa = PBXGroup;
+			children = (
+				382D60AF20D22FD300C15BED /* Marvelicious-Bridging-Header.h */,
+				382D608E20D125B800C15BED /* CustomCell.swift */,
+				382D609020D1282D00C15BED /* Constant.swift */,
+				3818697620D2ECA800EC6770 /* ModelCharacter.swift */,
+				382D609E20D22EC300C15BED /* ModelMarvel.swift */,
+				382D609820D136D200C15BED /* MervelService.swift */,
+				382D60B020D23FBE00C15BED /* LazyImageLoader.swift */,
+				382D60B220D24D3D00C15BED /* ExtensionANUJ.swift */,
+				382D60B420D24E5C00C15BED /* MarvelAlertController.swift */,
+				382D60BA20D2A71500C15BED /* NetReachability.swift */,
+			);
+			path = CommonResources;
+			sourceTree = "<group>";
+		};
+		382D608320D124C300C15BED /* ViewFlow */ = {
+			isa = PBXGroup;
+			children = (
+				382D608A20D1255800C15BED /* BaseVC.swift */,
+				382D60B820D2941200C15BED /* BaseDetailVC.swift */,
+			);
+			path = ViewFlow;
+			sourceTree = "<group>";
+		};
+		382D608420D124C300C15BED /* CustomLoader */ = {
+			isa = PBXGroup;
+			children = (
+				382D60AC20D22FB400C15BED /* CustomLoader.h */,
+				382D60AA20D22FB400C15BED /* CustomLoader.m */,
+				382D60AB20D22FB400C15BED /* CustomLoader.xib */,
+			);
+			path = CustomLoader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		382D606B20D1243500C15BED /* Marvelicious */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 382D607E20D1243B00C15BED /* Build configuration list for PBXNativeTarget "Marvelicious" */;
+			buildPhases = (
+				382D606820D1243500C15BED /* Sources */,
+				382D606920D1243500C15BED /* Frameworks */,
+				382D606A20D1243500C15BED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Marvelicious;
+			productName = Marvelicious;
+			productReference = 382D606C20D1243500C15BED /* Marvelicious.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		382D606420D1243500C15BED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "ANUJ NIGAM";
+				TargetAttributes = {
+					382D606B20D1243500C15BED = {
+						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = 382D606720D1243500C15BED /* Build configuration list for PBXProject "Marvelicious" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 382D606320D1243500C15BED;
+			productRefGroup = 382D606D20D1243500C15BED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				382D606B20D1243500C15BED /* Marvelicious */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		382D606A20D1243500C15BED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				382D607A20D1243B00C15BED /* LaunchScreen.storyboard in Resources */,
+				382D607720D1243B00C15BED /* Assets.xcassets in Resources */,
+				382D607520D1243500C15BED /* Main.storyboard in Resources */,
+				382D60AE20D22FB400C15BED /* CustomLoader.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		382D606820D1243500C15BED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				382D60B520D24E5C00C15BED /* MarvelAlertController.swift in Sources */,
+				382D607020D1243500C15BED /* AppDelegate.swift in Sources */,
+				382D609F20D22EC300C15BED /* ModelMarvel.swift in Sources */,
+				382D60B120D23FBE00C15BED /* LazyImageLoader.swift in Sources */,
+				382D609920D136D200C15BED /* MervelService.swift in Sources */,
+				382D60AD20D22FB400C15BED /* CustomLoader.m in Sources */,
+				382D608F20D125B800C15BED /* CustomCell.swift in Sources */,
+				382D60B920D2941300C15BED /* BaseDetailVC.swift in Sources */,
+				382D608B20D1255800C15BED /* BaseVC.swift in Sources */,
+				382D609120D1282D00C15BED /* Constant.swift in Sources */,
+				3818697720D2ECA800EC6770 /* ModelCharacter.swift in Sources */,
+				382D60BB20D2A71500C15BED /* NetReachability.swift in Sources */,
+				382D60B320D24D3D00C15BED /* ExtensionANUJ.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		382D607320D1243500C15BED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				382D607420D1243500C15BED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		382D607820D1243B00C15BED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				382D607920D1243B00C15BED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		382D607C20D1243B00C15BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/anujnigam/Desktop/Marvelicious/Marvelicious/AppFlow/CommonResources/Marvelicious-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		382D607D20D1243B00C15BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/anujnigam/Desktop/Marvelicious/Marvelicious/AppFlow/CommonResources/Marvelicious-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		382D607F20D1243B00C15BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Marvelicious/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.Marvelicious;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/anujnigam/Desktop/Marvelicious/Marvelicious/AppFlow/CommonResources/Marvelicious-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		382D608020D1243B00C15BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Marvelicious/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.Marvelicious;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/anujnigam/Desktop/Marvelicious/Marvelicious/AppFlow/CommonResources/Marvelicious-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		382D606720D1243500C15BED /* Build configuration list for PBXProject "Marvelicious" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				382D607C20D1243B00C15BED /* Debug */,
+				382D607D20D1243B00C15BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		382D607E20D1243B00C15BED /* Build configuration list for PBXNativeTarget "Marvelicious" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				382D607F20D1243B00C15BED /* Debug */,
+				382D608020D1243B00C15BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 382D606420D1243500C15BED /* Project object */;
+}
