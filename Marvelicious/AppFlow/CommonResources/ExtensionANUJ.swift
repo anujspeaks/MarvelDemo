@@ -448,6 +448,14 @@ extension UIFont {
     //            return UIFont.systemFontOfSize(15)
     //        }
     //    }
+    
+    /*
+     //                    let backToString = String(data: data, encoding: String.Encoding.utf8)
+     //                    let datastring = NSString(data: data, encoding: String.Encoding.utf8.rawValue)
+     //                    let str = String(data: data, encoding: String.Encoding.utf8)
+     //                    let jsonData = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves) as! NSDictionary
+     
+     */
 }
 
 

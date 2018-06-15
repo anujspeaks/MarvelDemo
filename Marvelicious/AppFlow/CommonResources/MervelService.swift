@@ -61,10 +61,6 @@ class MervelService: NSObject {
                 let code  = response?.getStatusCode()
                 
                 if (code == 200) {
-//                    let backToString = String(data: data, encoding: String.Encoding.utf8)
-//                    let datastring = NSString(data: data, encoding: String.Encoding.utf8.rawValue)
-//                    let str = String(data: data, encoding: String.Encoding.utf8)
-//                    let jsonData = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves) as! NSDictionary
                     let jsonDecoder = JSONDecoder()
                     let model = try jsonDecoder.decode(ModelCharacter.self, from: data)
                     print(model)
@@ -83,7 +79,7 @@ class MervelService: NSObject {
     }
     
     deinit {
-        print("Done")
+        //print("Done")
     }
     
 

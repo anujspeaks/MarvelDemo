@@ -97,7 +97,12 @@ struct Results : Codable {
         let values = try decoder.container(keyedBy: CodingKeys.self)
         id = try values.decodeIfPresent(Int.self, forKey: .id)
         name = try values.decodeIfPresent(String.self, forKey: .name) ?? ""
-        description = try values.decodeIfPresent(String.self, forKey: .description) ?? "No Description Available."
+        if let des = try? values.decodeIfPresent(String.self, forKey: .description) {
+            description = ((des?.count ?? 0) > 0) ? des : "No description Available."
+        }
+        else {
+            description = "No description Available"
+        }
         modified = try values.decodeIfPresent(String.self, forKey: .modified)
         thumbnail = try values.decodeIfPresent(Thumbnail.self, forKey: .thumbnail)
         resourceURI = try values.decodeIfPresent(String.self, forKey: .resourceURI)
